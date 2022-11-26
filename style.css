@@ -1,0 +1,108 @@
+*,
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dce2e3;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap:1rem;
+    filter:drop-shadow(0 0 0.4rem black);
+}
+
+.personal, .skills, .linkedin, .github{
+    padding: 1rem;
+    line-height:2;
+    font-family: 'Black', Roboto;
+    font-size: 18px;
+}
+
+.left{
+    background-color: white;
+}
+
+.left-image{
+    position: relative;
+}
+
+.left-image img{
+    width: 100%
+}
+
+.left-image h2{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+
+.linkedin{
+    background-color:#dce2e3;
+}
+
+.profile{
+    background-color: white;
+    padding: 1rem;
+}
+
+.profile h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    background-color: #e8eced;
+    padding: 2rem;
+}
+
+.experience{
+    line-height:1.5;
+    background-color:#e8eced;
+}
+
+.experience ul{
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.experience{
+    line-height:.1.2;
+}
+
+.experience p{
+    margin: 0rem 0;
+    padding: 1rem;
+}
+
+.experience h1{
+    padding: 0.5rem;
+    margin: 2rem 0;
+}
+
+
+.education{
+    line-height:.1.2;
+    background-color: white;
+    padding:1rem;
+}
+.education h1{
+    padding: 0.5rem;
+        margin: 2rem 0;
+}
+.education ul{
+    margin: 2rem 0;
+
+    background-color: white;
+}
+
+i{
+    color:#1160f2;
+}
+
